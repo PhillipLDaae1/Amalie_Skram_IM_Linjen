@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Skolen</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body onload="startTime()">
+    <script src="/JavaScript/clock.js"></script>
+    <header>
+        <nav>
+            <div class="hidden">
+                <a class="home" href="../index.html">
+                    <button>Hjem</button>
+                </a>
+                <img class="logo second" src="/Bilder/Vestland_vapen.png" alt="logo">
+            </div>
+
+            <div class="items">
+                <div class="dropdown">
+                    <button class="dropbtn">Prosjekter</button>
+                    <div class="dropdown-content">
+                        <a href="/HTML/konsept_program.html">Konsept. og Program.</a>
+                        <a href="/HTML/tek_for.html">Tek. for</a>
+                        <a href="/HTML/prod_historie.html">Prod. og Historie.</a>
+                        <a href="/HTML/engelsk.html">Engelsk</a>
+                        <a href="/HTML/matte.html">Matte</a>
+                        <a href="/HTML/nat_fag.html">Naturfag</a>
+                        <a href="/HTML/gym.html">Kroppsøving</a>
+                        <a href="/HTML/kalender.html">Kalender</a>
+                    </div>
+                </div>
+                <a class="nav-btns active" href="/HTML/om_skolen.html">Om skolen</a>
+                <a class="nav-btns" href="/HTML/om_meg.html">Om meg</a>
+            </div>
+        </nav>
+        <img class="logo first" src="/Bilder/Vestland_vapen.png" alt="logo">
+    </header>
+
+    <main>
+        <div class="js_clock">
+            <p id="clock"></p>
+        </div>
+        <div class="headline">
+            <h1 class="headline-main-text">Amalie Skram VGS</h1>
+            <h2 class="headline-under-text">Om Skolen</h2>
+        </div>
+
+        <div class="content-right about-school">
+            <img class="about-school-hidden" src="/Bilder/Amalie_Skram_Bakside.png" alt="Amalie Skram VGS">
+            <div class="content-right-textbox">
+                <h2 class="content-right-headline">Om skolen</h2>
+                <p class="content-right-text">Amalie Skram er den største videregående skolen i Bergen, med plass til over 1000 elever hvert skoleår. Skolen er ekstremt ettertraktet hos ungdom, noe som gjør snittet litt høyere enn ved andre skoler. Det finnes flere linjer på Amalie Skram, som jeg skal gå mer inn på.</p>
+            </div>
+        </div>
+
+        <div class="content-left eduprogram">
+            <img class="eduprogram-hidden" src="/Bilder/IM_linje.jpeg" alt="Linje">
+            <div class="content-left-textbox">
+                <h2 class="content-left-headline">IM Linjen</h2>
+                <p class="content-left-text">IM linjen på Amalie Skram er en av de mange linjene man kan gå. IM linjen er en yrkesfaglig linje, noe som vil si at vi ikke får generell studiekompetanse, men et fagbrev på slutten av studieforløpet. Linjen består av 2 år teori, og 2 år i lære.</p>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <h1>Woah!</h1>
+            <h2>Der var det slutt gitt!</h2>
+            <p>Vil du gå tilbake en side, eller bli her?</p>
+            <button id="stay" onclick="closePopup()">Bli</button>
+            <button id="back" onclick="goBackOnePage()">Tilbake</button>
+        </div>
+        <script src="../JavaScript/bottom_page.js"></script>
+    </main>
+
+    <footer>
+        <div class="bottom_bar">
+            <div class="contacts">
+                <h2 class="contacts_h2">Kontakt Meg</h2>
+                <p class="contacts_p">Tlf: +47 993 49 810</p>
+                <p class="contacts_p">E-post: phillipdaae@gmail.com</p>
+            </div>
+            <div class="mygithub">
+                <h2 class="mygithub_h2">Min GitHub</h2>
+                <a class="mygithub_img" href="https://github.com/phillipLDaae"><img src="/Bilder/Github logo.png" alt="GitHub logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

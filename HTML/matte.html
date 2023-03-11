@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosjekter</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body onload="startTime()">
+    <script src="/JavaScript/clock.js"></script>
+    <header>
+        <nav>
+            <div class="hidden">
+                <a class="home" href="../index.html">
+                    <button>Hjem</button>
+                </a>
+                <img class="logo second" src="/Bilder/Vestland_vapen.png" alt="logo">
+            </div>
+
+            <div class="items">
+                <div class="dropdown">
+                    <button class="dropbtn active">Prosjekter</button>
+                    <div class="dropdown-content">
+                        <a href="/HTML/konsept_program.html">Konsept. og Program.</a>
+                        <a href="/HTML/tek_for.html">Tek. for</a>
+                        <a href="/HTML/prod_historie.html">Prod. og Historie.</a>
+                        <a href="/HTML/engelsk.html">Engelsk</a>
+                        <a href="/HTML/matte.html">Matte</a>
+                        <a href="/HTML/nat_fag.html">Naturfag</a>
+                        <a href="/HTML/gym.html">Kroppsøving</a>
+                        <a href="/HTML/kalender.html">Kalender</a>
+                    </div>
+                </div>
+                <a class="nav-btns" href="/HTML/om_skolen.html">Om skolen</a>
+                <a class="nav-btns" href="/HTML/om_meg.html">Om meg</a>
+            </div>
+        </nav>
+        <img class="logo first" src="/Bilder/Vestland_vapen.png" alt="logo">
+    </header>
+
+    <main>
+        <div class="js_clock">
+            <p id="clock"></p>
+        </div>
+        <div class="headline">
+            <h1 class="headline-main-text">Matematikk</h1>
+            <h2 class="headline-under-text">Prosjekter og Oppgaver</h2>
+        </div>
+
+        <div class="projects matte-1">
+            <div class="projects-textbox">
+                <h2 class="projects-headline">Kalkulator</h2>
+                <p class="projects-text">Er det så mye mer å si? Det er en enkel kalkulator lagd med JavaScript, der du og får en logg av alle kalkulasjonene du har gjort. Trykk på lenken under for å prøve den.</p>
+                <a href="/HTML/Projects/matte_calculator.html"><button class="projects-button">Lenke</button></a>
+            </div>
+        </div>
+        <div class="projects matte-2">
+            <div class="projects-textbox projects-textbox-2">
+                <h2 class="projects-headline">Prosjekt 2</h2>
+                <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#"><button class="projects-button">Lenke</button></a>
+            </div>
+        </div>
+        <div class="projects matte-3">
+            <div class="projects-textbox projects-textbox-3">
+                <h2 class="projects-headline">Prosjekt 3</h2>
+                <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#"><button class="projects-button">Lenke</button></a>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <h1>Woah!</h1>
+            <h2>Der var det slutt gitt!</h2>
+            <p>Vil du gå tilbake en side, eller bli her?</p>
+            <button id="stay" onclick="closePopup()">Bli</button>
+            <button id="back" onclick="goBackOnePage()">Tilbake</button>
+        </div>
+        <script src="../JavaScript/bottom_page.js"></script>
+    </main>
+
+    <footer>
+        <div class="bottom_bar">
+            <div class="contacts">
+                <h2 class="contacts_h2">Kontakt Meg</h2>
+                <p class="contacts_p">Tlf: +47 993 49 810</p>
+                <p class="contacts_p">E-post: phillipdaae@gmail.com</p>
+            </div>
+            <div class="mygithub">
+                <h2 class="mygithub_h2">Min GitHub</h2>
+                <a class="mygithub_img" href="https://github.com/phillipLDaae"><img src="/Bilder/Github logo.png" alt="GitHub logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

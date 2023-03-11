@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="../../CSS/styles.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body onload="startTime()">
+    <script src="/JavaScript/clock.js"></script>
+    <header>
+        <nav>
+            <div class="hidden">
+                <a class="home" href="../../index.html">
+                    <button>Hjem</button>
+                </a>
+                <img class="logo second" src="/Bilder/Vestland_vapen.png" alt="logo">
+            </div>
+
+            <div class="items">
+                <div class="dropdown">
+                    <button class="dropbtn active">Prosjekter</button>
+                    <div class="dropdown-content">
+                        <a href="/HTML/konsept_program.html">Konsept. og Program.</a>
+                        <a href="/HTML/tek_for.html">Tek. for</a>
+                        <a href="/HTML/prod_historie.html">Prod. og Historie.</a>
+                        <a href="/HTML/engelsk.html">Engelsk</a>
+                        <a href="/HTML/matte.html">Matte</a>
+                        <a href="/HTML/nat_fag.html">Naturfag</a>
+                        <a href="/HTML/gym.html">Kroppsøving</a>
+                        <a href="/HTML/kalender.html">Kalender</a>
+                    </div>
+                </div>
+                <a class="nav-btns" href="/HTML/om_skolen.html">Om skolen</a>
+                <a class="nav-btns" href="/HTML/om_meg.html">Om meg</a>
+            </div>
+        </nav>
+        <img class="logo first" src="/Bilder/Vestland_vapen.png" alt="logo">
+    </header>
+
+    <main>
+        <div class="js_clock">
+            <p id="clock"></p>
+        </div>
+        <div class="headline">
+            <h1 class="headline-main-text">Kalkulator</h1>
+            <h2 class="headline-under-text">Matte</h2>
+        </div>
+        <script src="../../JavaScript/calculator.js"></script>
+        <div class="calc_container">
+            <div class="calc_eval">
+                <h2>Utregning</h2>
+                <br>
+                <form id="form" class="calc_form">
+                    Verdi 1: <input type="text" id="value1">
+                    Verdi 2: <input type="text" id="value2">
+                    Regneform: 
+                <select class="calc_select" id="operator">
+                    <option value="add">Pluss</option>
+                    <option value="min">Minus</option>
+                    <option value="div">Dele</option>
+                    <option value="mul">Gange</option>
+                </select>
+                <button type="button" onclick="clearAll()">Fjern</button>
+                <button type="button" onclick="calc(), checkLocalStorage()">Kalkuler</button>
+                </form>
+                <div class="calc_result">
+                    <p class="calc_result_box" id="result"></p>
+                </div>
+                <button type="button" onclick="clearLocalStorage(), checkLocalStorage()">Fjern Logg</button>
+                <button type="button" onclick="checkLocalStorage()">Vis</button>
+            </div>
+            <div class="calc_history">
+                <h2>Logg</h2>
+                <br>
+                <p id="his"></p>
+            </div>
+        </div>
+    <div class="popup" id="popup">
+        <h1>Woah!</h1>
+        <h2>Der var det slutt gitt!</h2>
+        <p>Vil du gå tilbake en side, eller bli her?</p>
+        <button id="stay" onclick="closePopup()">Bli</button>
+        <button id="back" onclick="goBackOnePage()">Tilbake</button>
+    </div>
+    <script src="/JavaScript/bottom_page.js"></script>
+    </main>
+
+    <footer>
+        <div class="bottom_bar">
+            <div class="contacts">
+                <h2 class="contacts_h2">Kontakt Meg</h2>
+                <p class="contacts_p">Tlf: +47 993 49 810</p>
+                <p class="contacts_p">E-post: phillipdaae@gmail.com</p>
+            </div>
+            <div class="mygithub">
+                <h2 class="mygithub_h2">Min GitHub</h2>
+                <a class="mygithub_img" href="https://github.com/phillipLDaae"><img src="/Bilder/Github logo.png" alt="GitHub logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
