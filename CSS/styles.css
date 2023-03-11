@@ -313,7 +313,7 @@ nav {
     align-items: flex-end;
     flex-wrap: wrap;
     padding: 1.5rem 7%;
-    background-image: url(/Bilder/Stock\ Plant.jpg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Stock\ Plant.jpg);
     background-size: cover;
 }
 
@@ -369,16 +369,16 @@ nav {
 /* bakgrunnsbilde/hvor tekstboksen skal stå til alle fagene, se klassenavn*/
 
 .konsept-1 {
-    background-image: url(/Bilder/Coding.jpg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Coding.jpg);
 }
 
 .konsept-2 {
-    background-image: url(/Bilder/Stock\ Plant.jpg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Stock\ Plant.jpg);
     align-items: flex-start;
 }
 
 .konsept-3 {
-    background-image: url(/Bilder/Stock\ Plant.jpg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Stock\ Plant.jpg);
 }
 
 .tekfor-2 {
@@ -386,7 +386,7 @@ nav {
 }
 
 .prod-1 {
-    background-image: url(/Bilder/tar_bilder_av_erik-2.jpeg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/tar_bilder_av_erik-2.jpeg);
     background-position: center;
 }
 
@@ -407,7 +407,7 @@ nav {
 }
 
 .gym-1 {
-    background-image: url(/Bilder/IMG_0901.PNG);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/IMG_0901.PNG);
     background-position: center;
 }
 
@@ -416,7 +416,7 @@ nav {
 }
 
 .matte-1 {
-    background-image: url(/Bilder/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg);
     background-position: center;
 }
 
@@ -531,7 +531,7 @@ nav {
 /* egen kode for bildene til hvert av elementene på siden, se klassenavn for referanse til hvilket element */
 
 .interests {
-    background-image: url(/Bilder/Meg\ selv\ tar\ bilder.png);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Meg\ selv\ tar\ bilder.png);
 }
 
 .interests-hidden {
@@ -540,7 +540,7 @@ nav {
 }
 
 .hello {
-    background-image: url(/Bilder/Meg_selv.jpeg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Meg_selv.jpeg);
 }
 
 .hello-hidden {
@@ -549,7 +549,7 @@ nav {
 }
 
 .welcome {
-    background-image: url(/Bilder/Amalie_Skram_Hjemside.jpeg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Amalie_Skram_Hjemside.jpeg);
     background-position: center;
 }
 
@@ -559,7 +559,7 @@ nav {
 }
 
 .about-school {
-    background-image: url(/Bilder/Amalie_Skram_Bakside.png);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/Amalie_Skram_Bakside.png);
 }
 
 .about-school-hidden {
@@ -568,7 +568,7 @@ nav {
 }
 
 .eduprogram {
-    background-image: url(/Bilder/IM_linje.jpeg);
+    background-image: url(/Amalie_Skram_IM_Linjen/Bilder/IM_linje.jpeg);
 }
 
 .eduprogram-hidden {
